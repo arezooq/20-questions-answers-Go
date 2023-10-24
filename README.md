@@ -26,7 +26,7 @@
 ## Answers the questions
 
 <div id="1">
-1. What is the primary purpose of a Go module file(go.mod)?
+1. What is the primary purpose of a `Go module file`(go.mod)?
 
   ANSWR:
         Each Go module is defined by a go.mod file that describes the module’s properties, including its dependencies on other modules and on versions of Go.
@@ -35,7 +35,7 @@
         $ go mod init example/mymodule
 </div>
 <div id="2">
-2. How do declare a variable in Go?
+2. How do declare a `variable` in Go?
 
   ANSWR:  
         In Go language variables are created in two different ways:
@@ -49,7 +49,7 @@
         variable_name:= expression
 </div>
 <div id="3">
-3. How to handling error in Go?
+3. How to handling `error` in Go?
 
   ANSWR:  
         Go does not have the try, catch, and finally features used by other programming languages like Java, Python, JavaScript, etc. However, Go has a feature that can be compared to these features. Defer, Panic, and Recover are used in Golang programs for handling exceptions, although the use case might be slightly different.
@@ -123,7 +123,7 @@
         }
 </div>
 <div id="7">
-7. How do create a slice from an array in Go?
+7. How do create a `slice` from an array in Go?
 
   ANSWR:  
         Create a slice by slicing an array:
@@ -132,13 +132,13 @@
         myslice := myarray[start:end]
 </div>
 <div id="8">
-8. In Go map, what is the key used for?
+8. In Go `map`, what is the `key` used for?
 
   ANSWR:  
         Golang Maps is a collection of unordered pairs of key-value. It is widely used because it provides fast lookups and values that can retrieve, update or delete with the help of keys.
 </div>
 <div id="9">
-9. How do define a function that takes two integer parameters and returns their sum in Go?
+9. How do define a `function` that takes two integer parameters and returns their sum in Go?
 
   ANSWR:  
           func add(a int, b int) int {
@@ -165,7 +165,7 @@
    output:   012
 </div>
 <div id="11">
-11. How to declare and use a pointer to an integer in Go?
+11. How to declare and use a `pointer` to an integer in Go?
 
   ANSWR:  
 
@@ -177,7 +177,7 @@
         var s *int = &a
 </div>
 <div id="12">
-12. How can represent a rune literal in Go source code?
+12. How can represent a `rune` literal in Go source code?
 
   ANSWR:  
         rune in Go is a data type that stores codes that represent Unicode characters. Unicode is actually the collection of all possible characters present in the whole world. In Unicode, each of these characters is assigned a unique number called the Unicode code point. This code point is what we store in a rune data type.
@@ -193,7 +193,7 @@
                 Data type of 😀 is int32 and the rune value is U+1F600
 </div>
 <div id="13">
-13. Can a struct have fields with different data types in Go?
+13. Can a `struct` have fields with different data types in Go?
 
   ANSWR:  
         In Go, create a struct with fields of different types by specifying the field names and their corresponding data types within the struct definition.
@@ -208,7 +208,7 @@
         }
 </div>
 <div id="14">
-14. How do define a method for a type in Go?
+14. How do define a `method` for a type in Go?
 
   ANSWR:  
         Go language support methods. Go methods are similar to Go function with one difference, i.e, the method contains a receiver argument in it. With the help of the receiver argument, the method can access the properties of the receiver.
@@ -237,7 +237,7 @@
         }
 </div>
 <div id="15">
-15. In a Go interface definition, can a type implement multiple interface?
+15. In a Go interface definition, can a type implement multiple `interface`?
 
   ANSWR:  
         In Go language, the interface is a collection of method signatures and it is also a type means you can create a variable of an interface type. In Go language, you are allowed to create multiple interfaces in your program with the help of the given
@@ -283,7 +283,7 @@
         }
 </div>
 <div id="16">
-16. How do access fields from an embedded struct within the outer struct Go?
+16. How do access fields from an `embedded struct` within the outer struct Go?
 
   ANSWR:
         Without having to explicitly declare them, fields and methods of another type can be inherited by a struct using a technique called “type embedding” in Go.
@@ -325,7 +325,7 @@
         } 
 </div>
 <div id="17">
-17. How to create a new channel for communication between goroutines?
+17. How to create a new `channel` for communication between `goroutines`?
 
   ANSWR:  
         In Go language, a channel is a medium through which a goroutine communicates with another goroutine and this communication is lock-free. Or in other words, a channel is a technique which allows to let one goroutine to send data to another goroutine.
@@ -351,7 +351,7 @@
         }
 </div>
 <div id="18">
-18. How to `json` tags used for in Go structs?
+18. How to `json` tags used for in Go `structs`?
 
   ANSWR:  
         In Go, you can use JSON tags in struct fields to specify how those fields should be encoded or decoded when working with JSON data.
@@ -366,7 +366,7 @@
         }
 </div>
 <div id="19">
-19. How can access an environment variable in Go?
+19. How can access an `environment variable` in Go?
 
   ANSWR:  
         In Go, you can access environment variables using the `os` package.
@@ -381,7 +381,7 @@
         }
 </div>
 <div id="20">
-20. How can specify the port on which Go HTTP server listens?
+20. How can specify the `port` on which Go `HTTP server` listens?
 
   ANSWR:  
         To specify the port on which your Go HTTP server listens, you can use the `http.listenAndServe` function.
