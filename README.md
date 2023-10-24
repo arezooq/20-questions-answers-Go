@@ -3,25 +3,25 @@
 ## Questions
 
 <a href="#1">1. What is the primary purpose of a Go module file(go.mod)?</a><br>
-<a href="#2">2. How do declare a variable in Go?</a>
-<a href="#3">3. How to handling error in Go?</a>
-<a href="#4">4. What does the `range` keyword do in a `for` in Go?</a>
-<a href="#5">5. How do handle multiple conditions in a single `if` statement in Go?</a>
-<a href="#6">6. What is the purpose of the `switch` statement in Go?</a>
-<a href="#7">7. How do create a slice from an array in Go?</a>
-<a href="#8">8. In Go map, what is the key used for?</a>
-<a href="#9">9. How do define a function that takes two integer parameters and returns their sum in Go?</a>
-<a href="#10">10. What is the output of the following code?</a>
-<a href="#11">11. How to declare and use a pointer to an integer in Go?</a>
-<a href="#12">12. How can represent a rune literal in Go source code?</a>
-<a href="#13">13. Can a struct have fields with different data types in Go?</a>
-<a href="#14">14. How do define a method for a type in Go?</a>
-<a href="#15">15. In a Go interface definition, can a type implement multiple interface?</a>
-<a href="#16">16. How do access fields from an embedded struct within the outer struct Go?</a>
-<a href="#17">17. How to create a new channel for communication between goroutines?</a>
-<a href="#18">18. How to `json` tags used for in Go structs?</a>
-<a href="#19">19. How can access an environment variable in Go?</a>
-<a href="#20">20. How can specify the port on which Go HTTP server listens?</a>
+<a href="#2">2. How do declare a variable in Go?</a><br>
+<a href="#3">3. How to handling error in Go?</a><br>
+<a href="#4">4. What does the `range` keyword do in a `for` in Go?</a><br>
+<a href="#5">5. How do handle multiple conditions in a single `if` statement in Go?</a><br>
+<a href="#6">6. What is the purpose of the `switch` statement in Go?</a><br>
+<a href="#7">7. How do create a slice from an array in Go?</a><br>
+<a href="#8">8. In Go map, what is the key used for?</a><br>
+<a href="#9">9. How do define a function that takes two integer parameters and returns their sum in Go?</a><br>
+<a href="#10">10. What is the output of the following code?</a><br>
+<a href="#11">11. How to declare and use a pointer to an integer in Go?</a><br>
+<a href="#12">12. How can represent a rune literal in Go source code?</a><br>
+<a href="#13">13. Can a struct have fields with different data types in Go?</a><br>
+<a href="#14">14. How do define a method for a type in Go?</a><br>
+<a href="#15">15. In a Go interface definition, can a type implement multiple interface?</a><br>
+<a href="#16">16. How do access fields from an embedded struct within the outer struct Go?</a><br>
+<a href="#17">17. How to create a new channel for communication between goroutines?</a><br>
+<a href="#18">18. How to `json` tags used for in Go structs?</a><br>
+<a href="#19">19. How can access an environment variable in Go?</a><br>
+<a href="#20">20. How can specify the port on which Go HTTP server listens?</a><br>
 
 ## Answers the questions
 
