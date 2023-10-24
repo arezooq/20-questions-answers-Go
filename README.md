@@ -1,11 +1,31 @@
-# chat_app
+# 20 Questions language Go
 
-## Installation Guide
+## Questions
 
-### Cloning a repository 
+<a href="#1">1. What is the primary purpose of a Go module file(go.mod)?</a>
+<a href="#2">2. How do declare a variable in Go?</a>
+<a href="#3">3. How to handling error in Go?</a>
+<a href="#4">4. What does the `range` keyword do in a `for` in Go?</a>
+<a href="#5">5. How do handle multiple conditions in a single `if` statement in Go?</a>
+<a href="#6">6. What is the purpose of the `switch` statement in Go?</a>
+<a href="#7">7. How do create a slice from an array in Go?</a>
+<a href="#8">8. In Go map, what is the key used for?</a>
+<a href="#9">9. How do define a function that takes two integer parameters and returns their sum in Go?</a>
+<a href="#10">10. What is the output of the following code?</a>
+<a href="#11">11. How to declare and use a pointer to an integer in Go?</a>
+<a href="#12">12. How can represent a rune literal in Go source code?</a>
+<a href="#13">13. Can a struct have fields with different data types in Go?</a>
+<a href="#14">14. How do define a method for a type in Go?</a>
+<a href="#15">15. In a Go interface definition, can a type implement multiple interface?</a>
+<a href="#16">16. How do access fields from an embedded struct within the outer struct Go?</a>
+<a href="#17">17. How to create a new channel for communication between goroutines?</a>
+<a href="#18">18. How to `json` tags used for in Go structs?</a>
+<a href="#19">19. How can access an environment variable in Go?</a>
+<a href="#20">20. How can specify the port on which Go HTTP server listens?</a>
 
-* On GitHub.com, navigate to the main page of the repository. [https://github.com/arezooq/chat_app]
+## Answers the questions
 
+<div id="1">
 1. What is the primary purpose of a Go module file(go.mod)?
 
   ANSWR:
@@ -14,7 +34,8 @@
         Go generates a go.mod file when you run the go mod init command. The following example creates a go.mod file, setting the module’s module path to example/mymodule:
 
         $ go mod init example/mymodule
-
+</div>
+<div id="2">
 2. How do declare a variable in Go?
 
   ANSWR:  
@@ -27,7 +48,8 @@
         2. Using short variable declaration: The local variables which are declared and initialize in the functions are declared by using short variable declaration.
 
         variable_name:= expression
-
+</div>
+<div id="3">
 3. How to handling error in Go?
 
   ANSWR:  
@@ -51,7 +73,8 @@
                 fmt.Println(divisor / divider)
             }
         }
-
+</div>
+<div id="4">
 4. What does the `range` keyword do in a `for` in Go?
 
   ANSWR: 
@@ -71,7 +94,8 @@
                 fmt.Println("Rank of", student, "is: ", rank)
             }
         }
-
+</div>
+<div id="5">
 5. How do handle multiple conditions in a single `if` statement in Go?
 
   ANSWR:  
@@ -80,7 +104,8 @@
         if (condition1) && (condition2) {
         ......
         }
-
+</div>
+<div id="6">
 6. What is the purpose of the `switch` statement in Go?
 
   ANSWR:  
@@ -99,7 +124,8 @@
                 fmt.Printf("%s.\n", os)
             }
         }
-
+</div>
+<div id="7">
 7. How do create a slice from an array in Go?
 
   ANSWR:  
@@ -107,19 +133,22 @@
 
         var myarray = [length]datatype{values} // An array
         myslice := myarray[start:end] // A slice made from the array
-
+</div>
+<div id="8">
 8. In Go map, what is the key used for?
 
   ANSWR:  
         Golang Maps is a collection of unordered pairs of key-value. It is widely used because it provides fast lookups and values that can retrieve, update or delete with the help of keys.
-
+</div>
+<div id="9">
 9. How do define a function that takes two integer parameters and returns their sum in Go?
 
   ANSWR:  
         func add(a int, b int) int {
             return a + b
         }
-
+</div>
+<div id="10">
 10. What is the output of the following code?
 
     func main() {
@@ -137,7 +166,8 @@
 
   ANSWR:
    output:   012
-   
+</div>
+<div id="11">
 11. How to declare and use a pointer to an integer in Go?
 
   ANSWR:  
@@ -148,7 +178,8 @@
 
         var a = 45
         var s *int = &a
-
+</div>
+<div id="12">
 12. How can represent a rune literal in Go source code?
 
   ANSWR:  
@@ -163,7 +194,8 @@
 
         Output:
                 Data type of 😀 is int32 and the rune value is U+1F600
-
+</div>
+<div id="13">
 13. Can a struct have fields with different data types in Go?
 
   ANSWR:  
@@ -177,7 +209,8 @@
           Age int
           BirthDate string
         }
-
+</div>
+<div id="14">
 14. How do define a method for a type in Go?
 
   ANSWR:  
@@ -205,7 +238,8 @@
 
           johnDoe.Greet()
         }
-
+</div>
+<div id="15">
 15. In a Go interface definition, can a type implement multiple interface?
 
   ANSWR:  
@@ -250,7 +284,8 @@
           var i2 PersonDetail = johnDoe
           i2.OutputPersonDetails()
         }
-
+</div>
+<div id="16">
 16. How do access fields from an embedded struct within the outer struct Go?
 
   ANSWR:
@@ -291,7 +326,8 @@
 
           johnDoe.Greet()
         } 
-
+</div>
+<div id="17">
 17. How to create a new channel for communication between goroutines?
 
   ANSWR:  
@@ -316,7 +352,8 @@
 
           fmt.Println("All data received. Done!)
         }
-
+</div>
+<div id="18">
 18. How to `json` tags used for in Go structs?
 
   ANSWR:  
@@ -330,7 +367,8 @@
           Age int `json:"age"`
           BirthDate string `json:"birthdate"`
         }
-
+</div>
+<div id="19">
 19. How can access an environment variable in Go?
 
   ANSWR:  
@@ -344,7 +382,8 @@
 
           fmt.Printf("The value of is: %v\n", value)
         }
-
+</div>
+<div id="20">
 20. How can specify the port on which Go HTTP server listens?
 
   ANSWR:  
@@ -365,3 +404,4 @@
             fmt.Printf("Server error: %v \n", err)
           }
         }
+</div>
