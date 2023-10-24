@@ -118,8 +118,6 @@
             case "linux":
                 fmt.Println("Linux.")
             default:
-                // freebsd, openbsd,
-                // plan9, windows...
                 fmt.Printf("%s.\n", os)
             }
         }
@@ -130,8 +128,8 @@
   ANSWR:  
         Create a slice by slicing an array:
 
-        var myarray = [length]datatype{values} // An array
-        myslice := myarray[start:end] // A slice made from the array
+        var myarray = [length]datatype{values}
+        myslice := myarray[start:end]
 </div>
 <div id="8">
 8. In Go map, what is the key used for?
@@ -143,9 +141,9 @@
 9. How do define a function that takes two integer parameters and returns their sum in Go?
 
   ANSWR:  
-        func add(a int, b int) int {
-          return a + b
-        }
+          func add(a int, b int) int {
+            return a + b
+          }
 </div>
 <div id="10">
 10. What is the output of the following code?
