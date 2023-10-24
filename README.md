@@ -30,7 +30,6 @@
 
   ANSWR:
         Each Go module is defined by a go.mod file that describes the module’s properties, including its dependencies on other modules and on versions of Go.
-
         Go generates a go.mod file when you run the go mod init command. The following example creates a go.mod file, setting the module’s module path to example/mymodule:
 
         $ go mod init example/mymodule
